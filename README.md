@@ -5,6 +5,8 @@ MMLUベンチマークの日本語翻訳版
 
 お急ぎの方はyinziqi2001@toki.waseda.jpまでご連絡ください。「MMLUjaの提供について」をタイトルとし、氏名、連絡先および勤務先/所属研究室を記載していただければ幸いです。
 
+機械翻訳がメインですので誤りが入っている恐れがあります。また、使用に関していかなる責任は負いかねます。ご了承ください。
+
 Japanese translated version of MMLU
 
 Using translator to help the translation. Only translated 100-150 questions per subject.
