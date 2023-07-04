@@ -3,7 +3,7 @@ MMLUベンチマークの日本語翻訳版
 
 後日公表予定。
 
-お急ぎの方はyinziqi2001@toki.waseda.jpまでご連絡ください
+お急ぎの方はyinziqi2001@toki.waseda.jpまでご連絡ください。「MMLUjaの提供について」をタイトルとし、氏名、連絡先および勤務先/所属研究室を記載していただければ幸いです。
 
 Japanese translated version of MMLU
 
