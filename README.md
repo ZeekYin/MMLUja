@@ -57,3 +57,54 @@ Any responses marked as 'no' will be discarded.
   Clearly incorrect translations.
   
   Incomplete translations.
+
+Subjects and number of question
+```
+high_school_computer_science:95 questions
+abstract_algebra:92 questions
+high_school_geography:148 questions
+college_medicine:149 questions
+high_school_chemistry:150 questions
+professional_medicine:145 questions
+college_mathematics:95 questions
+high_school_mathematics:148 questions
+virology:145 questions
+clinical_knowledge:147 questions
+high_school_biology:148 questions
+miscellaneous:142 questions
+public_relations:104 questions
+world_religions:146 questions
+moral_disputes:149 questions
+machine_learning:109 questions
+college_physics:100 questions
+high_school_statistics:150 questions
+conceptual_physics:150 questions
+medical_genetics:91 questions
+logical_fallacies:129 questions
+anatomy:130 questions
+high_school_macroeconomics:149 questions
+marketing:149 questions
+security_studies:150 questions
+sociology:146 questions
+high_school_microeconomics:149 questions
+nutrition:147 questions
+high_school_world_history:136 questions
+moral_scenarios:59 questions
+international_law:113 questions
+philosophy:149 questions
+formal_logic:115 questions
+high_school_physics:149 questions
+human_sexuality:129 questions
+professional_psychology:145 questions
+human_aging:149 questions
+college_computer_science:94 questions
+elementary_mathematics:150 questions
+college_biology:135 questions
+jurisprudence:100 questions
+college_chemistry:95 questions
+computer_security:92 questions
+high_school_psychology:148 questions
+management:98 questions
+econometrics:108 questions
+prehistory:148 questions
+```
