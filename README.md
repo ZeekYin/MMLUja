@@ -24,9 +24,12 @@ ONLY answer 'yes' or 'no'
 [Translated Question]
 ```
 Noと判断されたものは全て破棄される
+
 3. 人手で翻訳の適切さをチェック(正確性は考えない)。以下に該当するものは破棄される
     日本語でないもの
+    
     明らかに誤っているもの
+    
     翻訳が不完全なもの
 
 
@@ -43,7 +46,11 @@ ONLY answer 'yes' or 'no'
 [Translated Question]
 ```
 Any responses marked as 'no' will be discarded.
+
 3. Check the appropriateness of the translations manually (without considering accuracy). Discard the following:
+
   Anything that is not in Japanese.
+  
   Clearly incorrect translations.
+  
   Incomplete translations.
