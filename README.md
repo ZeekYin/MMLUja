@@ -14,20 +14,20 @@ Using translator to help the translation. Only translated 100-150 questions per 
 Removed some subjects and questions which are hard to translate or unsuitable to Japan/Japanese environmen
 
 ## 翻訳の流れ
-1. ChatGPTに以下のプロンプトで翻訳してもらう
+1. ChatGPTに以下のプロンプトで問題文と選択肢を翻訳してもらう
 ```
 This is a question of 科目名 . Translate the question and options to JAPANESE with care about the terminology in the field of 科目名.
 ```
-2. 翻訳したものと原文両方を以下のプロンプトでチェックしてもらう
+2. 翻訳したものと原文両方を以下のプロンプトで翻訳された問題文と選択肢チェックしてもらう
 ```
 Here is a question and its Japanese of 科目名. Do you think the translation is correct?
 ONLY answer 'yes' or 'no'
 [English question]
 [Translated Question]
 ```
-Noと判断されたものは全て破棄される
+   Noと判断されたものは全て破棄する
 
-3. 人手で翻訳の適切さをチェック(正確性は考えない)。以下に該当するものは破棄される
+3. 人手で翻訳の適切さをチェック(正確性は考えない)。以下に該当するものは破棄する
    
     日本語でないもの
     
@@ -37,9 +37,9 @@ Noと判断されたものは全て破棄される
 
 
 ## Procedure of Translation
-1. Let ChatGPT to translate the following prompt into Japanese:
+1. Let ChatGPT translate question and options into Japanesethe with following prompt :
 ```
-This is a question of [SUBJECT] . Translate the question and options to JAPANESE with care about the terminology in the field of [SUBJECT].
+This is a question of [SUBJECT]. Translate the question and options to JAPANESE with care about the terminology in the field of [SUBJECT].
 ```
 2. Let ChatGPT check both the translated version and the original text with the following prompt:
 ```
@@ -48,7 +48,7 @@ ONLY answer 'yes' or 'no'
 [English question]
 [Translated Question]
 ```
-Any responses marked as 'no' will be discarded.
+Any responses marked as 'no' are discarded.
 
 3. Check the appropriateness of the translations manually (without considering accuracy). Discard the following:
 
