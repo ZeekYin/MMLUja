@@ -16,18 +16,18 @@ Removed some subjects and questions which are hard to translate or unsuitable to
 ## 翻訳の流れ
 1. ChatGPTに以下のプロンプトで問題文と選択肢を翻訳してもらう
 ```
-This is a question of 科目名 . Translate the question and options to JAPANESE with care about the terminology in the field of 科目名.
+This is a question of 科目名. Translate the question and options to JAPANESE with care about the terminology in the field of 科目名.
 ```
-2. 翻訳したものと原文両方を以下のプロンプトで翻訳された問題文と選択肢チェックしてもらう
+2. ChatGPTに以下のプロンプトで翻訳された問題文と選択肢が一致しているかをチェックしてもらう
 ```
 Here is a question and its Japanese of 科目名. Do you think the translation is correct?
 ONLY answer 'yes' or 'no'
 [English question]
 [Translated Question]
 ```
-   Noと判断されたものは全て破棄する
+    Noと判断されたものは全て破棄する
 
-3. 人手で翻訳の適切さをチェック(正確性は考えない)。以下に該当するものは破棄する
+3. 人手で翻訳の適切さをチェック。以下に該当するものは破棄する
    
     日本語でないもの
     
@@ -37,11 +37,11 @@ ONLY answer 'yes' or 'no'
 
 
 ## Procedure of Translation
-1. Let ChatGPT translate question and options into Japanesethe with following prompt :
+1. Let ChatGPT translate questions and their options into Japanese with the following prompt:
 ```
 This is a question of [SUBJECT]. Translate the question and options to JAPANESE with care about the terminology in the field of [SUBJECT].
 ```
-2. Let ChatGPT check both the translated version and the original text with the following prompt:
+2. Let ChatGPT check whether the translated version and the original text corresopnd with the following prompt:
 ```
 Here is a question and its Japanese of [SUBJECT]. Do you think the translation is correct?
 ONLY answer 'yes' or 'no'
@@ -50,7 +50,7 @@ ONLY answer 'yes' or 'no'
 ```
 Any responses marked as 'no' are discarded.
 
-3. Check the appropriateness of the translations manually (without considering accuracy). Discard the following:
+3. Check the appropriateness of the translations manually. Discard the following:
 
   Anything that is not in Japanese.
   
@@ -58,7 +58,7 @@ Any responses marked as 'no' are discarded.
   
   Incomplete translations.
 
-Subjects and number of question
+Subjects and the number of questions
 ```
 high_school_computer_science:95 questions
 abstract_algebra:92 questions
