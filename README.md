@@ -1,29 +1,28 @@
 # MMLUja
-MMLUベンチマークの日本語翻訳版
+56科目
 
 後日公表予定。
 
 お急ぎの方はyinziqi2001@toki.waseda.jpまでご連絡ください。「MMLUjaの提供について」をタイトルとし、氏名、連絡先および勤務先/所属研究室を記載していただければ幸いです。
 
-人手で翻訳・校正したものですが誤りが入っている恐れがあります。また、使用に関していかなる責任は負いかねます。ご了承ください。
+jaMMLUはMMLUの内容を日本語に翻訳したもの及び日本独自の文化的背景に基づく内容によって構成される。
 
-Japanese translated version of MMLU
+翻訳において、訳者は翻訳しずらい内容を除外し、残りを翻訳した。
+また、日本の文化背景と無関係または矛盾する問題やタスクは削除された。
 
-Using translator to help the translation. Only translated 100-150 questions per task.
+日本の文化的背景に基づく内容は、西洋視点のMMLUに不足していた日本独自の文化的背景に補足の公民、日本史などの学校教科に基づく公開問題が含まれてる。各タスクに含まれる問題数は、95から150の範囲に制御されている。
 
-Removed some subjects and questions which are hard to translate or unsuitable to Japan/Japanese environmen
+jaMMLU consists of two parts. 
 
-## 翻訳の流れ
+Translation of MMLU: Professional translators first eliminated contents difficult to translate correctly then translated English into Japanese. Some questions or tasks that were clearly unrelated or conflicted with the Japanese cultural background are removed. 
 
-人手で翻訳し、かつ以下に該当する問題・タスクは破棄する
-   
-- 日本語に翻訳しずらいもの
-    
-- 日本語と日本語の観点から乖離するもの
+Japanese school curricula questions: Mitigation for the western culture bias in MMLU. Contains Japanese, Japanese Civics, History and Japanese Geography.
+
+Number of questions per task between 95 and 150.
+
 
 | タスク名 | 英語名 | 件数 |
 |---|---|---|
-| 倫理シナリオ | moral_scenarios_test | 150 |
 | 公共関係 | public_relations_test | 109 |
 | 世界事実 | global_facts_test | 97 |
 | 電気工学 | electrical_engineering_test | 144 |
@@ -56,7 +55,11 @@ Removed some subjects and questions which are hard to translate or unsuitable to
 | 論理学 | logical_fallacies_test | 150 |
 | 高校情報科学 | high_school_computer_science_test | 99 |
 | 雑学 | miscellaneous_test | 150 |
-| 高校世界史 | high_school_world_history_test | 150 |
+| 世界史 | world_history_test | 150 |
+|公民|japanese_civics|150|
+|日本史|japanese_history|150|
+|日本地理|japanese_geography|150|
+|熟語|japanese_idiom|150|
 | 専門医学 | professional_medicine_test | 150 |
 | 高校生物学 | high_school_biology_test | 148 |
 | 高校統計学 | high_school_statistics_test | 150 |
